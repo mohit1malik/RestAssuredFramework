@@ -16,7 +16,5 @@ public class JsonSchemaValidator {
                 statusCode(200).
                 assertThat().body(matchesJsonSchemaInClasspath("user_schema.json"));
 
-
-
     }
 }
