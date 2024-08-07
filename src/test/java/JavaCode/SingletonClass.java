@@ -1,7 +1,7 @@
 package JavaCode;
 
 public class SingletonClass {
-    private static SingletonClass instance = new SingletonClass();
+    private static SingletonClass instance;
 
 
     private SingletonClass(){}
