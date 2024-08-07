@@ -1,3 +1,5 @@
+package restUtils;
+
 import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.baseURI;

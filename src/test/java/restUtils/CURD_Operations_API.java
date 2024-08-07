@@ -1,14 +1,16 @@
+package restUtils;
+
 import io.restassured.http.ContentType;
-import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.testng.annotations.Test;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import static org.hamcrest.Matchers.*;
 import static io.restassured.RestAssured.baseURI;
 import static io.restassured.RestAssured.given;
+import static org.hamcrest.Matchers.equalTo;
+import static org.hamcrest.Matchers.hasItem;
 
 
 public class CURD_Operations_API {
