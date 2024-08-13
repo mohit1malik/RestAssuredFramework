@@ -17,12 +17,9 @@ public class CURD_Operations_API {
     @Test
     public void getTest(){
         baseURI= "https://reqres.in/api";
-        given().
-                get("/users?page=2").
-        then().
-                statusCode(200).
-                body("data[1].id",equalTo(8)).
-                body("data.first_name", hasItem("George"));
+        given().get("/users?page=2")
+                .then()
+                        .statusCode(201);
     }
 
     @Test

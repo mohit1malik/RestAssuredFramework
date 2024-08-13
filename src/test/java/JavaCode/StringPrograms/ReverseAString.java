@@ -1,4 +1,4 @@
-package JavaCode;
+package JavaCode.StringPrograms;
 
 public class ReverseAString {
 

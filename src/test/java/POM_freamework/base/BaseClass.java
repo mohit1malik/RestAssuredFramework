@@ -23,7 +23,7 @@ public class BaseClass {
         try {
             try {
                 prop = new Properties();
-                FileInputStream ip = new FileInputStream("D:\\AutomationLearning\\RestAssuredFramework\\src\\test\\java\\POM_freamework\\utils\\config.properties");
+                FileInputStream ip = new FileInputStream("./src/test/java/POM_freamework/utils/config.properties");
                 prop.load(ip);
             } catch (FileNotFoundException e) {
                 e.printStackTrace();
