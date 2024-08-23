@@ -12,7 +12,7 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <restAssuredVersion>5.5.0</restAssuredVersion>
+        <restAssuredVersion>5.4.0</restAssuredVersion>
         <testNGversion>7.10.2</testNGversion>
         <googleGsonSimpleVersion>1.1.1</googleGsonSimpleVersion>
         <RestAssuredGsonSchemaValidator>3.3.0</RestAssuredGsonSchemaValidator>
