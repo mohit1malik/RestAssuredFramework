@@ -1,5 +1,6 @@
+package RestAssuredClasses;
+
 import io.restassured.http.ContentType;
-import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.testng.annotations.Test;
 
