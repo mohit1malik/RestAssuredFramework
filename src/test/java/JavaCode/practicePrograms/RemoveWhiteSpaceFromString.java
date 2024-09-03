@@ -1,4 +1,4 @@
-package JavaCode;
+package JavaCode.practicePrograms;
 
 public class RemoveWhiteSpaceFromString {
     public static void main(String[] args){

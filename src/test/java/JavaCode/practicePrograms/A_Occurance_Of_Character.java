@@ -1,4 +1,4 @@
-package JavaCode;
+package JavaCode.practicePrograms;
 
 public class A_Occurance_Of_Character {
     public static void main(String args[]){

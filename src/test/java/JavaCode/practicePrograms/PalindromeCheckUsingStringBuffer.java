@@ -1,4 +1,4 @@
-package JavaCode;
+package JavaCode.practicePrograms;
 
 public class PalindromeCheckUsingStringBuffer {
     public static void main(String[] args) {

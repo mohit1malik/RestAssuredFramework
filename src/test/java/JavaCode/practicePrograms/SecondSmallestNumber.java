@@ -1,6 +1,6 @@
-package JavaCode;
+package JavaCode.practicePrograms;
 
-public class SecondLargestNumber {
+public class SecondSmallestNumber {
     public static void main(String[] args) {
         int[] ar = {3,5,3,1,7,2,3,4};
         int[] fr =new int[ar.length];
@@ -23,6 +23,9 @@ public class SecondLargestNumber {
         }
         System.out.println("---");
 
-        System.out.print("second largetst Number - " + fr[fr.length-2]);
+        System.out.println("second largetst Number - " + fr[fr.length-2]);
+        System.out.println("second smallest Number - " + fr[1]);
+
+
     }
 }
