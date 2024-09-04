@@ -1,4 +1,4 @@
-package JavaCode.collections;
+package JavaCode.collections.HashMap;
 
 import java.util.*;
 public class HashMapOldStyle {
