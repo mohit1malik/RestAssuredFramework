@@ -1,13 +1,12 @@
-package JavaCode.collections.HashMap;
+package JavaCode.collections.Map;
 
-import javax.xml.transform.Source;
 import java.util.*;
 
 public class HashmapExample {
     public static void main(String[] args) {
-        Book b1 = new Book(101,"OldMonkWhoSoldHisFerrai","Robin", "bpb",4);
+        Book b1 = new Book(105,"OldMonkWhoSoldHisFerrai","Robin", "bpb",4);
         Book b2 = new Book(102,"Brilliant Minds","Mohit", "yaatra",4);
-        Book b3 = new Book(103,"Clocks","Malik", "TRP",100);
+        Book b3 = new Book(109,"Clocks","Malik", "TRP",100);
 
         Map<Integer, Book> map = new HashMap<Integer, Book>();
         map.put(1,b1);
@@ -23,6 +22,15 @@ public class HashmapExample {
 
 
         }
+
+        System.out.println("------------");
+
+        Iterator <Integer> it = map.keySet().iterator();
+        while(it.hasNext()){
+            int key = it.next();
+            System.out.println(key+ " "+ map.get(key));
+        }
+
     }
 
 

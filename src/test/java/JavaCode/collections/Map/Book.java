@@ -1,6 +1,4 @@
-package JavaCode.collections.HashMap;
-
-import com.google.common.annotations.VisibleForTesting;
+package JavaCode.collections.Map;
 
 public class Book {
 
