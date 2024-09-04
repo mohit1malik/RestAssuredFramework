@@ -1,8 +1,6 @@
-<<<<<<<< HEAD:src/test/java/restUtils/JsonSchemaValidator.java
-package restUtils;
-========
+
+
 package RestAssuredClasses;
->>>>>>>> main:src/test/java/RestAssuredClasses/JsonSchemaValidator.java
 
 import org.testng.annotations.Test;
 

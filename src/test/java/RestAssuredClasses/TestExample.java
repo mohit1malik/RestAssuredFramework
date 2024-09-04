@@ -1,8 +1,6 @@
-<<<<<<<< HEAD:src/test/java/restUtils/TestExample.java
-package restUtils;
-========
+
 package RestAssuredClasses;
->>>>>>>> main:src/test/java/RestAssuredClasses/TestExample.java
+
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
