@@ -1,4 +1,8 @@
+<<<<<<<< HEAD:src/test/java/restUtils/CURD_Operations_API.java
 package restUtils;
+========
+package RestAssuredClasses;
+>>>>>>>> main:src/test/java/RestAssuredClasses/CURD_Operations_API.java
 
 import io.restassured.http.ContentType;
 import org.json.simple.JSONObject;

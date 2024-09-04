@@ -1,4 +1,4 @@
-package JavaCode;
+package JavaCode.practicePrograms;
 
 public class Adder {
     public void add(int a, int b){
